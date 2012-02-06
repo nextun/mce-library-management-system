@@ -1,0 +1,203 @@
+.edit_settings .change_pwd .alignright, .change_email .alignright {
+	margin-top: 20px
+}
+.char_wide, .char_container {
+	height: 600px
+}
+#mid_content .character .chartile.g_fix {
+	padding: 0 25px;
+	width: 205px;
+}
+.charselect a.cancel {
+	position: absolute;
+	margin-left: -90px;
+	margin-top: 10px
+}
+#footer a {
+	border: 0
+}
+#mid_content .status_note .status_note_tile {
+	min-height: 565px
+}
+#mid_content .status_note .head.g_fix {
+	background: url(../images/status_note_top.png) no-repeat bottom left;
+	height: 10px;
+	padding: 0;
+	margin: 0;
+}
+#mid_content .status_note .foot.g_fix {
+	background: url(../images/status_note_bottom.png) no-repeat top left;
+	height: 10px
+}
+#mid_content .status_note .status_note_tile.g_fix {
+	width:435px;
+}
+.registerbox input {
+	height: 26px;
+	line-height: 26px
+}
+#mid_content .status_note .status_note_tile.option_pwd {
+	min-height: 540px
+}
+.newreg.full select {
+	margin-top: 5px
+}
+.newreg select {
+	margin-bottom: 3px
+}
+.marginer_5 .character {
+	margin-top: -2px
+}
+.shiftup {
+	margin-top: -10px
+}
+.newreg .shiftdown select {
+	margin-bottom: 39px;
+	margin-top: 5px
+}
+.small .alignright strong {
+	font-size: 1.1em
+}
+.newreg .radios .radio {
+	margin-top: -4px
+}
+#insider .insidertile {
+	float: left
+}
+#insider .insiderhead {
+	height: 20px
+}
+#insider .insidertile {
+	float: left;
+	width: 713px
+}
+#insider .insiderfoot {
+	clear: both;
+	height: 20px;
+	margin-top: -5px
+}
+#whiterounded .whiteroundedtile {
+	float: left;
+	width: 673px
+}
+#whiterounded .whiteroundedfoot {
+	clear: both;
+	margin-top: -3px
+}
+.whiteroundedtile p {
+	margin: 0
+}
+
+.character ul {
+	padding-bottom: 5px
+}
+.character li {
+	margin-bottom: 2px
+}
+#mid_content .mystatus .tile_mystatus.g_fix {
+	width: 750px;
+}
+#mid_content .mystatus .tile_mystatus.charselect.fix {
+	width: 750px
+}
+.char_container {
+	width : 730px;
+	margin-left:3px
+}
+.marginer_5 {
+	margin-left:-5px;
+	width:720px;
+}
+.slider_wrapper ul.action_buttons {
+	position: relative;
+	margin-left:430px
+}
+#mid_content .character ul {
+	width : 180px;
+	line-height : 9.5pt
+}
+.action_buttons.left {
+	left: 0px;
+}
+.action_buttons.right {
+	right: 0px;
+}
+#mid_content ul.paging.ext_padding {
+	margin-right:20px;
+}
+center.btn_fix {
+	width : 185px
+}
+.newreg.full select {
+	width:435px;
+}
+.newreg.full label {
+	width:250px;
+}
+#mid_content .mystatus {
+	margin-left:15px;
+}
+#mid_content .mystatus .status_nav {
+	left : 45px
+}
+
+.status_box .stat_row .stat_top {
+	margin-bottom:-15px;
+	}
+.status_box .stat_row .stat_bottom {
+	margin-bottom:-15px;
+	}
+.st_top{
+	margin-bottom:-10px;
+	}
+	
+#mid_content .status_note .status_note_tile.stat {
+	background: url(../images/status_note_middle_2.png);
+	width: 680px !important;
+	padding:0 15px;
+}
+
+#mid_content .status_note .head {
+	margin-bottom:-10px;
+	}
+#mid_content .status_note .status_note_tile {
+		width:435px;
+		}
+#mid_content .mystatus .tile_mystatus {
+	width:750px;
+	}
+	
+
+.newopt label {
+	font-size: 16px;
+	float: left;
+	margin-bottom: 5px;
+	width: 160px;
+	font-weight: bold
+}
+.newopt select {
+	width: 225px;
+	border: 1px solid #333333
+}
+
+.pad {
+	width:690px !important;
+	}
+
+.status .title_txt {
+
+}
+#mid_content .character .chartile {
+	width:225px;
+	}
+
+#slider{
+    margin-left:15px;
+        overflow:hidden;
+}
+
+.simprof.fix {
+	margin: 10px 0 10px 0;
+        width:760px;
+}
+p.align_fix { margin-right: -5px;}

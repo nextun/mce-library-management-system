@@ -1,0 +1,5 @@
+ALTER TABLE `user_info` DROP `country_id` ;
+
+
+
+ALTER TABLE `user_info` ADD `email_format` INT( 10 ) NULL AFTER `gender` ;

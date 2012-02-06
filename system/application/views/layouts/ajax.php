@@ -1,0 +1,1 @@
+<?php echo $main_layout_content ?>

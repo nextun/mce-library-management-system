@@ -1,0 +1,91 @@
+#mid_content {clear: none;margin-right: 10px}
+.main_content .bg {margin: 0;margin-left: 1px;width: 980px}
+#page .main_navi {background-position: center left; background-repeat: no-repeat;overflow: visible;margin-left: 2px}
+.main_navi .change_country {margin: 0 10px 0 0;float: right}
+.main_navi .change_country a {width: 130px}
+.sidenav li {margin: 0;height: 24px;line-height: 28px}
+.sidenav li a {}
+.loginbox .forgot_pwd {width: 70px}
+.status_nav li a {width: 120px;text-align: center}
+.status_txt {margin-right: 20px}
+#mid_content .status_note .head {background-repeat: no-repeat;height: 6px}
+#mid_content .status_note .foot {background-repeat: no-repeat}
+#mid_content .status_note .status_note_tile.option_pwd {height: 545px}
+#mid_content .character .chartile {height: 540px}
+#page .main_content {width: 978px;margin: 0 1px 0 2px}
+.main_footer {margin-left: 1px}
+
+.tagline.pngfix {float: left;width: 425px}
+h1 {height: 144px;width: 148px;z-index: 100}
+
+/*ie png fixes*/
+
+.png, .achievements label, #mid_content ul.paging li img, #mid_content .status ul li label, main_content {behavior: url(iepngfix.htc)}
+
+.tilt_left {margin-left: -10px}
+#mid_content .registerbox .head {height: 30px}
+.status {height: 500px}
+.char_wide .png {z-index: 0}
+#mid_content .status_note .head {height: 15px}
+#mid_content .mystatus .foot {height: 34px}
+#mid_content .mystatus .status_note .foot {height: 15px}
+.tagline.minwidth {width: 400px}
+
+.marginer {margin: 0 10px 0 10px}
+.marginer.shrinked {margin: 0 10px}
+.newreg {margin-left: -5px}
+.newreg .radios .radio {height: 2em}
+#mid_content .tile {height: 900px}
+.newreg.full select {width: 430px}
+#mid_content .status_note .foot {height: 15px}
+#mid_content .status_note .status_note_tile.autoheight {height: 80px}
+#mid_content .loginbox .tile {height: auto}
+#mid_content .loginbox {margin-right: 2px}
+.character.tilt_left {margin-left: 0}
+.status_nav li a {background: url(../images/tab_left.gif) bottom left no-repeat;padding-left: 19px }
+.status_nav li a span {background: url(../images/tab_right.gif) bottom right no-repeat }
+#mid_content .character .foot {height: 30px}
+
+.marginer_5 {position: absolute;width: 700px}
+
+#mid_content .status_note .foot {height: 15px;margin-top: -8px}
+.newregnext {margin-right: 3px}
+#mid_content .status_note .status_note_tile.autoheight {height: 90px}
+#mid_content .status_note .status_note_tile.button_box {padding-bottom: 0}
+#mid_content .mystatus .tile_mystatus {height: 600px}
+.status_txt .status {height: 300px}
+.already_registered {width: 110px;margin-right: 10px}
+
+#mid_content {position: static;margin-right: 5px}
+#insider .insiderhead {height: 20px}
+#insider .insidertile {float: left;width: 713px}
+#insider .insiderfoot {clear: both;height: 20px;margin-top: 8px}
+#whiterounded .whiteroundedtile {float: left;width: 673px}
+#whiterounded .whiteroundedfoot {clear: both;margin-top: -3px}
+.whiteroundedtile p {margin: 0}
+hr.hr {}
+.shrinked {margin-left: -5px}
+.marginer.shrinked {margin: 0 5px 0 10px}
+.regbutton {margin-top: 78px}
+.regbutton {margin-top: 88px}
+.forgotpwd .forgot_pwd {margin-left: 50px}
+.marginer.charc {margin: 0 5px 0 10px}
+.already_registered {top: 0;right: -50px}
+.pushdown, button.btn.tall_small.pushdown {margin-right: 10px}
+.bg {position: relative}
+
+#sidebar {position: absolute;width: 176px}
+.regcontent {margin-left: 0}
+.widenext {margin-right: 10px}
+.newreg label {width: 110px}
+.newreg .part {overflow: hidden}
+.small_info {position: static;float: right;width: 210px;text-align: left;margin-right: 20px}
+.newreg input {width: 210px}
+.newreg select {width: 70px}
+.character li {margin-bottom: 2px}
+.character ul {padding-bottom: 0}
+.newreg.full label {width: 250px}
+.newreg.full select {width: 435px;font: inherit }
+.newopt label {width: 170px;float: left}
+.newopt select {width: 235px;float: right}
+p.align_fix { margin-right: 0px;}

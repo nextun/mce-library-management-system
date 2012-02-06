@@ -1,0 +1,1553 @@
+body {
+	background: #FFF url(../images/sim_bg.png) top repeat-x;
+	color: #000;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: center
+}
+.clr {
+	clear: both
+}
+.alignright {
+	text-align: right
+}
+.alignleft {
+	text-align: left
+}
+.aligncenter {
+	text-align: center
+}
+#page {
+	margin: 60px auto;
+	text-align: left;
+	width: 982px;
+	position: relative
+}
+h1 {
+	background: url(../images/sim_logo_header-trans.png);
+	height: 144px;
+	margin: -50px 0 0 10px;
+	padding-bottom: -100px;
+	position: absolute;
+	text-indent: -999em;
+	width: 148px;
+	top: 0;
+	left: 0;
+    cursor: pointer;
+}
+#page .main_navi {
+	background: url(../images/sim_head-trans.png);
+	height: 31px;
+	overflow: visible;
+	position: relative
+}
+.main_navi .change_country {
+	font-size: 14px;
+	float: right;
+	line-height: 31px;
+	margin-right: 40px
+}
+.main_navi .change_country a {
+	color: #FFF;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 0
+}
+.main_navi .change_country a, .main_navi .change_country span {
+	margin: 0 5px
+}
+.main_navi .change_country a.usa {
+	background-image: url(../images/flag_usa-trans.png)
+}
+.main_navi .change_country img {
+	float: left;
+	margin-right: 5px;
+	margin-top: 1px
+}
+.main_footer {
+	background: url(../images/sim_foot-trans.png);
+	height: 31px
+}
+#page .main_content {
+	background: url(../images/sim_tile_bg.png) left repeat-y;
+	margin: 0 1px
+}
+.main_content .bg {
+	background: #87b9e0 url(../images/sim_content_bg.png) top left no-repeat;
+	margin: 0 1px;
+	border-bottom:1px solid #87b9e0;
+	overflow:hidden;
+}
+#mid_content {
+	clear: both;
+	float: right;
+	margin: 20px 20px 40px 0;
+	width: 788px
+}
+#mid_content .head {
+	background: url(../images/mid_content_top-trans.png) top left;
+	height: 20px
+}
+#mid_content .foot {
+	background: url(../images/mid_content_bottom-trans.png) bottom left;
+	height: 29px
+}
+#mid_content .tile {
+	background: url(../images/mid_content_tile.png) left repeat-y;
+	padding: 0 10px;
+	width: 788px;
+	min-height: 695px
+}
+#mid_content .loginbox {
+	float: right;
+	width: 294px;
+	margin-right: 30px
+}
+#mid_content .loginbox .head {
+	background: url(../images/loginbox_top-trans.png) top left;
+	height: 23px
+}
+#mid_content .loginbox .foot {
+	background: url(../images/loginbox_bottom-trans.png) bottom left;
+	height: 34px
+}
+#mid_content .loginbox .tile {
+	background: url(../images/loginbox_tile-trans.png) left repeat-y;
+	padding: 0 20px;
+	width: 254px
+}
+#mid_content .loginbox h3 {
+	color: #14753b;
+	font-size: 24px;
+	margin: 0;
+	text-align: center
+}
+#mid_content .loginbox label, #mid_content .loginbox input {
+	font-size: 12px
+}
+#mid_content .loginbox label {
+	float: left;
+	text-align: right;
+	margin-right: 5px;
+	width: 60px
+}
+#mid_content .loginbox input {
+	width: 170px
+}
+#mid_content ul {
+	list-style: disc outside
+}
+.tagline {
+	background: url(../images/tagline_logo-trans.png) top left no-repeat;
+	color: #14753b;
+	font-size: 30px;
+	float: left;
+	margin-top: 10px;
+	padding: 130px 0 10px 25px;
+	text-transform: uppercase;
+	min-width: 425px;
+	width: 425px
+}
+.tagline.minwidth {
+	width: 100%
+}
+.title {
+	background: url(../images/sim_logo_header_title.png) top left no-repeat;
+	color: #14753b;
+	font-size: 24px;
+	float: left;
+	padding: 90px 0 10px 20px;
+	margin:0 0 0 20px;
+	width: 308px;
+	clear:both;
+		display:block;
+}
+.loginbox .forgot_pwd {
+	color: #2c84c9;
+	clear: both;
+	display: block;
+	float: left;
+	font-size: 12px;
+	line-height: 1.4em;
+	margin-left: 20px;
+	margin-top: 7px;
+	width: 80px
+}
+.loginbox button {
+	float: left
+}
+#mid_content .loginbox input.btn {
+	float: left
+}
+.newreg input.btn {
+	width: 140px
+}
+.btn, #mid_content .loginbox input.btn {
+	background: url(../images/button_normal-trans.png);
+	border: 0;
+	color: #FFF;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "trebuchet MS";
+	height: 44px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 140px;
+	cursor: pointer;
+	outline: none;
+}
+.btn.wide {
+	background-image: url(../images/button_wide-trans.png);
+	height: 54px;
+	width: 210px
+}
+.btn.green {
+	background-image: url(../images/button_green-trans.png);
+	width: 150px;
+	font-size: 18px;
+}
+.btn.disabled {
+	background-image: url(../images/button_disabled-trans.png);
+	color: #14753b;
+	width: 150px;
+	font-size:18px;
+	padding-left:35px !important;
+	outline:none !important;
+}
+.btn.tall {
+	background-image: url(../images/button_normal_tall-trans.png);
+	height: 54px
+}
+.btn.tall_small {
+	background-image: url(../images/button_normal_tall_small-trans.png);
+	height: 54px;
+	width: 112px;
+}
+#sidebar {
+	float: left;
+	margin: 85px 0 0 0;
+	width: 170px
+}
+.sidenav {
+	margin: 0 0 120px 0;
+	list-style: none outside;
+}
+.sidenav li {
+	margin: 0 0 1px 0;
+	font-size: 12px;
+}
+.sidenav li a {
+	border: 1px solid #d5e5f3;
+	color: #2d508d;
+	display: block;
+	font-weight: bold;
+	padding: 2px 10px 2px 20px;
+	text-decoration: none;
+		height:30px;
+}
+.sidenav li a:hover {
+	background: #4791cd;
+	color: #FFF
+}
+.sidenav h3 {
+	background: #4791cd;
+	border: 1px solid #d5e5f3;
+	color: #FFF;
+	font-size: 12px;
+	margin: 0 0 1px 0;
+	padding: 2px 10px;
+	text-transform: uppercase
+}
+#footer {
+	font-size: 11px;
+	line-height: 1.4em;
+	text-align: center;
+}
+#footer p {
+	margin: 20px 0
+}
+#footer a {
+	color: #245497;
+	margin: 0 7px;
+}
+.already_registered {
+	color: #227ec6;
+	float: right;
+	font-size: 12px;
+	margin-right: 20px
+}
+.loginout {
+	color: #227ec6;
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 20px
+}
+.char_container {
+	background: url(../images/char_container.png);
+	height: 600px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	width: 710px;
+	padding: 0 10px
+}
+#mid_content .paging {
+	float: right;
+	list-style: none outside
+}
+#mid_content .paging li, #mid_content .charselect ul.paging li {
+	float: left;
+	margin: 30px 0px 9px 10px
+}
+.char {
+	background: url(../images/char_select_bg.png);
+	font-size: 12px;
+	float: left;
+	height: 540px;
+	line-height: 1.4em;
+	margin: 0 10px;
+	padding: 10px;
+	padding-top: 0;
+	width: 195px
+}
+.char p, .char ul {
+	margin: 0
+}
+.char li {
+	margin-left: 20px
+}
+.char_wide {width: 1400px;height: 600px;}
+#mid_content .registerbox {
+	float: right;
+	font-size: 24px;
+	line-height: 1.5em;
+	width: 514px;
+	margin-top: 5px;
+	padding-bottom:5px;
+}
+#mid_content .registerbox .head {
+	background: url(../images/registerbox_top.png) top left;
+	height: 25px
+}
+#mid_content .registerbox .foot {
+	background: url(../images/registerbox_bottom.png) bottom left;
+	height: 25px
+}
+#mid_content .tile .registerbox .repeat {
+	background: url(../images/registerbox_tile.png) left repeat-y;
+	float: left;
+	padding: 10px 20px;
+	width: 474px
+}
+.registerbox label {
+	float: left;
+	text-align: right;
+	margin-right: 5px;
+	width: 205px
+}
+.registerbox input {
+	font: inherit;
+	margin-bottom: 25px;
+	padding: 3px;
+	width: 245px
+}
+.registerbox select {
+	width: 70px
+}
+.tile {
+}
+.foot {
+	clear: both
+}
+#mid_content .mystatus {
+	margin: 40px 0 0 10px;
+	width: 750px
+}
+#mid_content .mystatus .head {
+	background: url(../images/mystatus_top.png) top left;
+	height: 25px
+}
+#mid_content .mystatus .foot {
+	background: url(../images/mystatus_bottom.png) bottom left;
+	height: 25px
+}
+#mid_content .mystatus .tile_mystatus {
+	background: url(../images/mystatus_tile.png) left repeat-y;
+	padding: 0 20px 0 20px;
+	width: 710px;
+	min-height: 540px
+}
+#mid_content .mystatus .tile_mystatus.autoheight, #mid_content .tile.autoheight {
+	height: auto;
+	min-height: 0
+}
+#mid_content .mystatus .tile_mystatus.charselect {
+	padding: 0 10px 30px 10px;
+	width: 730px
+}
+#mid_content .mystatus .status_nav {
+	height: 40px;
+	list-style: none outside;
+	margin: 0;
+	font-size: 20px;
+	position: absolute;
+	margin-top: -51px;
+	margin-left: 10px
+}
+#mid_content .mystatus .tile_mystatus.charselect .status_nav {
+	margin-left: 20px
+}
+#mid_content .mystatus .status_nav li {
+	float: left;
+	margin: 0 10px 0 0
+}
+.status_nav li a {
+	background: url(../images/tab_left.png) bottom left no-repeat;
+	color: #FFF;
+	float: left;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	padding-left: 20px
+}
+.status_nav li a span {
+	background: url(../images/tab_right.png) bottom right no-repeat;
+	display: block;
+	padding-right: 20px
+}
+.status_nav li.active a {
+	background-position: top left;
+	color: #227ec6;
+}
+.status_nav li.active a span {
+	background-position: top right
+}
+.mystatus .char {
+	position: absolute;
+	margin-top: 10px
+}
+.status_txt {
+	float: left;
+	width: 435px;
+	margin-top: -4px
+}
+.status_txt .status {
+	margin: 15px 0 20px 0;
+}
+.status {
+	background: #FFF;
+	border: 1px solid #227ec6;
+	margin: 0
+}
+.status .title_txt {
+	background: url(../images/status_title.png);
+	color: #FFF;
+	font-size: 20px;
+	height: 29px;
+	line-height: 29px;
+	padding: 0 20px;
+	margin-bottom:15px;
+}
+.status .title_txt em{
+	font-style:normal;
+	font-size:14px;
+	padding-left:10px;
+}
+#mid_content .status ul {
+	font-size: 20px;
+	font-weight: bold;
+	list-style: none outside;
+	margin: 20px
+}
+#mid_content .status_txt .status ul li {
+	height: 50px;
+	line-height: 50px;
+	text-align: right;
+	margin: 0
+}
+#mid_content .status ul li {
+	margin: 0
+}
+#mid_content .status_txt .status ul li label {
+	background: center left no-repeat;
+	float: left;
+	padding-left: 45px
+}
+#mid_content .status ul li.lifetime_happiness label {
+	background-image: url(../images/icon_lifetime_happiness.png)
+}
+#mid_content .status ul li.achievements label {
+	background-image: url(../images/icon_achievements_new.jpg);
+	width: auto
+}
+#mid_content .status ul li.skillpoints label {
+	background-image: url(../images/icon_skillpoints_new.jpg)
+}
+#mid_content .status ul li.joblevel label {
+	background-image: url(../images/icon_joblevel_new.jpg)
+}
+#mid_content .status ul li.simoleons label {
+	background-image: url(../images/icon_simuleons_new.jpg)
+}
+#mid_content .status small {
+	font-size: 12px
+}
+#mid_content .status_note {
+	line-height: 30px
+}
+#mid_content .status_note .head {
+	background: url(../images/status_note_top.png) no-repeat top;
+	height: 15px;
+	padding: 0;
+	margin: 0;
+}
+#mid_content .status_note .foot {
+	background: url(../images/status_note_bottom.png) bottom left no-repeat;
+	height: 15px
+}
+#mid_content .status_note .status_note_tile {
+	position: relative;
+	background: url(../images/status_note_tile.png) left repeat-y;
+	float: left;
+		padding: 0 15px;
+	width:405px;
+	min-height: 545px;
+	font-size: 20px;
+	overflow:hidden;
+}
+#mid_content .status_note .status_note_tile.button_box {
+	padding-bottom: 12px;
+	line-height: 36px;
+}
+#mid_content .status_note .status_note_tile button.change_password {
+	margin-top: 10px;
+	background: url(../images/button_small_height-trans.png) left no-repeat;
+	width: 190px;
+	height: 37px;
+}
+#mid_content .status_note .status_note_tile button.poke {
+	position: absolute;
+	right: 13px;
+	bottom: -2px;
+}
+#mid_content .status_note .status_note_tile.autoheight {
+	height: auto;
+	min-height: 0
+}
+#mid_content .status_note.small {
+	margin-bottom: 0
+}
+#mid_content .status_note.stat_ext_padd {
+	padding: 15px;
+}
+.pad {
+	padding: 10px
+}
+#mid_content ul.paging {
+	float: right;
+	font-size: 12px;
+	margin: 0
+}
+#mid_content ul.paging li {
+}
+#mid_content ul.paging li a {
+	color: #14753b;
+	padding: 0 5px;
+	height: 20px;
+	width: 21px;
+	display: block;
+}
+#mid_content ul.paging li.current a {
+	color: #000;
+	text-decoration: none
+}
+.achievements label {
+	background: url(../images/select_no.png) center left no-repeat;
+	float: left;
+	padding-left: 30px;
+	width: 170px
+}
+.achievements .selected label {
+	background-image: url(../images/select_yes.png)
+}
+#mid_content .status.achievements ul {
+	font-size: 14px;
+	margin: 10px
+}
+.history_pad {
+	font-size: 12px;
+	line-height: 1.5em;
+	padding: 10px
+}
+.history_pad .section {
+	border-bottom: 1px dashed #237dc4;
+	padding: 10px 0
+}
+.history_pad ul.paging {
+	padding-top: 10px
+}
+.history_pad p {
+	margin-bottom: 10px
+}
+.history_pad a.blocks {
+	background: url(../images/block_left.png) top left no-repeat;
+	color: #000;
+	display: inline-block;
+	font-size: 14px;
+	height: 27px;
+	line-height: 27px;
+	padding-left: 20px;
+	text-decoration: none
+}
+.history_pad a.blocks span {
+	background: url(../images/block_right.png) top right no-repeat;
+	display: inline-block;
+	padding-right: 20px
+}
+.history_pad a.blocks.active {
+	background-position: bottom left;
+	color: #FFF
+}
+.history_pad a.blocks.active span {
+	background-position: bottom right
+}
+.edit_settings {
+	margin: 15px 0
+}
+.lead {
+	color: #14753b;
+	font-size: 21px;
+	margin-bottom: 5px
+}
+.lead2 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	clear:both;
+}
+.edit_settings select {
+	border: 1px solid #333;
+	font-size: 14px;
+	padding: 3px 5px;
+	font-family: "Trebuchet MS", Arial, sans-serif
+}
+.edit_settings .radio label {
+	margin-left: 10px
+}
+.edit_settings p.small {
+	margin: 0;
+	line-height: 1.3em
+}
+.nomargin {
+	margin: 0
+}
+.edit_settings .alignright {
+	float: right;
+	margin-top: -32px
+}
+.edit_settings .small .alignright {
+	margin-top: -18px
+}
+.edit_settings .lead2 .alignright a {
+	color: #14753b
+}
+.edit_settings .small {
+	font-size: 12px
+}
+.edit_settings .section {
+	margin-bottom: 16px
+}
+.mystatus .char_wide .char {
+	position: relative;
+	margin-top: 0
+}
+.charselect .lead {
+	margin-left: 30px
+}
+#mid_content .charselect ul.paging {
+	margin: -30px 20px 0 0
+}
+.charselect .alignright {
+	margin-right: 30px
+}
+.charselect a.cancel {
+	color: #14753b;
+	margin-right: 30px
+}
+.change_pwd {
+	font-size: 14px
+}
+.change_pwd label {
+	float: left;
+	width: 160px
+}
+.change_pwd input {
+	border: 1px solid #333;
+	padding: 5px;
+	width: 230px;
+	margin-bottom: 8px
+}
+.edit_settings .change_email .alignright_wraper, .edit_settings .change_pwd .alignright_wraper {
+	text-align: right
+}
+.edit_settings .change_pwd .alignright {
+	float: none;
+	text-align: right
+}
+.edit_settings .change_email .alignright_wraper .btn, .edit_settings .change_pwd .alignright_wraper .btn, .edit_settings .change_pwd .alignright .btn, .edit_settings .change_email .alignright .btn {
+	font-size: 18px
+}
+.change_email {
+	font-size: 14px;
+}
+.change_email label {
+	float: left;
+	text-align: right;
+	width: 160px;
+	margin-top: 5px
+}
+.change_email .radiogroup {
+	float: right;
+	padding: 5px;
+	width: 226px
+}
+.change_email .radiogroup input {
+	width: 193px
+}
+.change_email .radiogroup input.radio {
+	width: auto;
+}
+.change_email .radiogroup input[type=text] {
+	color: #808080
+}
+.change_email .radiogroup input[type=text]:focus {
+	color: #000
+}
+.change_email .alignright {
+	float: none;
+	margin-top: 0;
+}
+.faq {
+	line-height: 1.4em
+}
+.faq .q {
+	color: #227ec6
+}
+#mid_content .status ul.faq {
+	font-weight: normal;
+	font-size: 12px;
+	margin: 10px 20px;
+	min-height: 350px
+}
+#mid_content .status ul.faq li {
+	margin-bottom: 10px
+}
+.character {
+	font-size: 12px;
+	float: left;
+	line-height: 1.4em;
+	width: 225px;
+	margin-right:25px
+}
+#mid_content .character .head {
+	background: url(../images/char_top.png) top left;
+	height: 25px
+}
+#mid_content .character .foot {
+	background: url(../images/char_bottom.png) bottom left;
+	height: 25px
+}
+#mid_content .character .chartile {
+	background: url(../images/char_tile.png) left repeat-y;
+	padding: 0 20px;
+	width: 185px;
+	line-height: 1.2em;
+	/*height:475;*/
+}
+#mid_content .character.selected .foot {
+	background: url(../images/char_s_bottom.png) bottom left;
+	height: 25px
+}
+#mid_content .character.selected .head {
+	background: url(../images/char_s_top.png) top left;
+	height: 25px
+}
+#mid_content .character.selected .chartile {
+	background: url(../images/char_s_tile.png) left repeat-y;
+	padding: 0 20px;
+	width: 185px
+}
+#mid_content .character .chartile center button.change {
+	background: url(../images/button_change.png) no-repeat;
+	width: 150px;
+	height: 37px;
+	font-size: 18px;
+}
+.character p, .character ul {
+	margin: 0
+}
+.character ul {
+	margin-bottom: 10px
+}
+.character li {
+	margin-left: 20px
+}
+/*.mystatus .character {position: absolute}*/
+.mystatus .charselect .character {
+	position:static
+}
+.marginer {
+	margin: 0 20px
+}
+.absolute {
+	position: absolute
+}
+.tilt_left {
+	margin-left: -15px
+}
+.character.tilt_left ul {
+	margin-bottom: 0;
+	padding-bottom: 20px
+}
+.section .radio {
+	font-size: 14px;
+	line-height: 1.5em;
+}
+.section .radio input{
+	float:left;
+	}
+.section .radio label{
+	display:block;
+	padding-left:22px;
+	}
+.fltright {
+	float: right
+}
+.friends_image {
+	margin-right: 80px
+}
+#mid_content .status_note .status_note_tile.option_pwd {
+	min-height: 533px
+}
+.character ul {
+	margin-bottom: 0;
+	padding-bottom: 0
+}
+div.pagingparent {
+	height: 1.8em
+}
+.marginer_5 {
+	margin: 0 -5px 0 -5px;
+	overflow: hidden
+}
+.start_playing {
+	margin-right: -8px
+}
+.newreg {
+	margin-left: 0;
+	margin-bottom: 15px;
+	width: 752px
+}
+#mid_content .newreg .head {
+	background: url(../images/newreg_top.png) top left no-repeat;
+	height: 24px
+}
+#mid_content .newreg .foot {
+	background: url(../images/newreg_bottom.png) bottom left no-repeat;
+	height: 25px
+}
+#mid_content .newreg .newregtile {
+	background: url(../images/newreg_tile.png) left repeat-y;
+	padding: 0 20px 20px 20px;
+	width: 712px
+}
+.newreg .part {
+	float: left;
+	width: 345px
+}
+.newreg label {
+	float: left;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: right;
+	margin-right: 5px;
+	margin-top: 8px;
+	width: 100px
+}
+.newreg label.nomargin {
+	margin-top: 0
+}
+.newreg.full label {
+	margin-right: 20px;
+	width: 240px;
+	font-weight: bold
+}
+.newreg.full input, .newreg.full select {
+	width: 435px
+}
+.newreg.full select.autowidth {
+	width: auto;
+}
+
+.newreg.full select {
+	font: inherit;
+	padding: 5px 0;
+	height: 32px;
+	border: 1px solid #333
+}
+.newreg input {
+	font: inherit;
+	font-size: 24px;
+	margin-bottom: 30px;
+	padding: 3px;
+	width: 220px
+}
+.newreg input.autowidth {
+	width: auto;
+	margin-top: 14px;
+	margin-bottom: 0
+}
+.newreg .radios {
+	font-size: 24px;
+	font-weight: bold
+}
+.newreg .radios .radio {
+	float: left;
+	width: 120px;
+	margin-top: -2px
+}
+.newreg select {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	margin-bottom: 20px;
+	width: 73px
+}
+.newregnext {
+	margin-right: -12px
+}
+.newreg .radiogroup {
+	float: left;
+	font-size: 14px;
+	line-height:18px;
+	margin-top: 8px;
+	width: 420px
+}
+.newreg .radiogroup input{
+	vertical-align:middle;
+	margin-right:10px !important;
+	}
+.newreg .radiogroup input.autoheight {
+	height: auto;
+	margin: 0 5px 0 0;
+	height: 18px;
+	float:left;
+}
+.newreg .radiogroup p{
+	display:block;
+	padding-left:22px;
+	margin-bottom:3px;
+	}
+.tiltright {
+	margin-right: -5px
+}
+.newopt label {
+	font-size: 16px;
+	float: left;
+	margin-bottom: 5px;
+	width: 170px;
+	font-weight: bold
+}
+.newopt select {
+	width: 235px;
+	border: 1px solid #333333
+}
+#intro {
+	text-align: center;
+	margin-bottom: 50px
+}
+body.nobg {
+	background: #FFF
+}
+#intro .flags {
+	margin: 0 auto;
+	text-align: center;
+	width: 450px
+}
+#intro .flags .flag {
+	height: 29px;
+	width: 47px;
+	margin: 1px
+}
+#intro .flags .flag:hover {/*margin-top: -29px*/
+}
+#intro h2 {
+	color: #023062;
+	font: bold 24px Arial, Helvetica, sans-serif;
+	height: 60px;
+	line-height: 60px;
+	margin: 0
+}
+#intro p.small {
+	color: #000;
+	font: 8pt Arial, Helvetica, sans-serif;
+	margin-bottom: 10px
+}
+#intro p.small a {
+	color: #217DC6
+}
+#intro .flash {
+	margin: 5px 0 7px 0
+}
+.startplaying, .widenext {
+	background: url(../images/button_normal-trans.png);
+	border: 0;
+	color: #FFF;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "trebuchet MS";
+	height: 44px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 140px;
+	cursor: pointer;
+	background-image: url(../images/button_wide-trans.png);
+	height: 54px;
+	width: 210px
+}
+.marginer_5 .character {
+	margin-top: 3px
+}
+.shiftup {
+	margin-top: -5px
+}
+.newreg .shiftdown select {
+	margin-bottom: 45px
+}
+.alignright.shiftLeft {
+	margin-right: 2px
+}
+.spacer_btm {
+	margin-bottom: 120px
+}
+a.cancel {
+	color: #14753b
+}
+.title {
+	height: auto !important;
+	height: 1px
+}
+/* V5*/
+.marginer {
+	margin: 0 0 0 2px
+}
+#insider {
+	width: 753px
+}
+#insider .insiderhead {
+	background: url(../images/insider_top.png) top left no-repeat;
+	height: 15px
+}
+#insider .insiderfoot {
+	background: url(../images/insider_bottom.png) bottom left no-repeat;
+	height: 15px
+}
+#insider .insidertile {
+	background: url(../images/insider_tile.png) left repeat-y;
+	padding: 20px 20px 10px 20px
+}
+#insider .main_ul {
+	margin: 0
+}
+#insider .start_playing {
+	margin-right: 10px
+}
+#whiterounded {
+	margin: 20px 0 0 0
+}
+#whiterounded .whiteroundedhead {
+	background: url(../images/white_top.png) top left no-repeat;
+	height: 15px
+}
+#whiterounded .whiteroundedfoot {
+	background: url(../images/white_bottom.png) bottom left no-repeat;
+	height: 15px
+}
+#whiterounded .whiteroundedtile {
+	background: url(../images/white_tile.png) left repeat-y;
+	padding: 20px
+}
+.hr {
+	border: 0;
+	background: url(../images/hr.png) center left no-repeat;
+	height: 11px;
+	margin: 0 0 10px 0;
+}
+.hr.nomargin {
+	margin-bottom: 0
+}
+.regcontent {
+	margin-left: 15px
+}
+.regcontent h4 {
+	color: #14753b;
+	font-size: 24px;
+	text-align: center
+}
+.newreg .part.bordered {
+	border-right: 2px solid #227ec6;
+	width: 335px;
+	margin-right: 10px;
+	padding-right:10px;
+}
+.newreg input {
+	width: 204px
+}
+.forgotpwd {
+	margin-right: 30px
+}
+.forgotpwd .forgot_pwd {
+	color: #2c84c9;
+	clear: both;
+	display: block;
+	float: left;
+	font-size: 12px;
+	line-height: 1.4em;
+	margin-left: 105px;
+	margin-top: 3px;
+	width: 70px;
+	text-align: left
+}
+.regbutton {
+	margin-top: 76px
+}
+#mid_content .newreg .newregtile {
+	padding-bottom: 10px
+}
+.newregnext {
+	margin-right: 2px
+}
+.newreg {
+	margin-bottom: 20px;
+	margin-left: -3px
+}
+.title {
+	margin-top: -5px;
+	width: 725px;
+	margin-left: 5px
+}
+#mid_content {
+	position: relative
+}
+.already_registered {
+	position: absolute;
+	right:10px;
+	top: 30px
+}
+.newreg .radios .radio {
+	width: 110px
+}
+.newreg input.autowidth {
+	margin-left: 0;
+	margin-right: 0
+}
+.widenext {
+	margin-right: 10px;
+	margin-bottom: 10px
+}
+button.btn.tall_small {
+	margin-bottom: 10px
+}
+.small_info {
+	font-size: 11px;
+	line-height: 16px;
+	margin-left: 126px;
+	margin-top: -30px;
+	position: absolute
+}
+.marginer.shrinked {
+	margin: 0 10px
+}
+.pushdown, button.btn.tall_small.pushdown {
+	margin-bottom: 20px
+}
+#mid_content .character ul {
+	margin-bottom: 0
+}
+.status.faqlist {
+	min-height: 500px;
+	height: auto!important;
+	height: 500px
+}
+#mid_content .newreg .newregtile.nopadbtm {
+	padding-bottom: 0
+}
+p.regbutton {
+	margin-bottom: 0
+}
+.marginer.charc {
+	margin: 0 10px
+}
+#mid_content ul.paging {
+	margin-right: 10px
+}
+.newreg.full label {
+	margin-right: 10px;
+	width: 250px
+}
+#mid_content .status_note .status_note_tile button.poke {
+	bottom: -10px
+}
+.newreg select {
+	width: 67px
+}
+.main_navi img {
+	position: absolute
+}
+.character li {
+	margin-bottom: 3px
+}
+.newreg label {
+	font-weight: bold;
+	width: 108px
+}
+.edit_settings p.small {
+	margin-top: -2px
+}
+.edit_settings .small .alignright {
+	margin-top: -16px;
+	font-size: 12px
+}
+.widenext.pushdown {
+	margin-right: 2px
+}
+.widenext {
+	margin-right: 7px
+}
+.widenext.goleft {
+	margin-right: 15px
+}
+.chartile li strong {
+	color: #000
+}
+.newopt select {
+	padding: 0
+}
+.newreg.full select {
+	padding: 0
+}
+.forgotpwd {
+	margin-right: 5px
+}
+.forgotpwd .forgot_pwd {
+	margin-left: 115px
+}
+.regbutton {
+	margin-top: 88px
+}
+.character li {
+	padding-bottom: 3px;
+	margin-bottom: 0
+}
+a.btn_link {
+	text-decoration:none
+}
+.slider_wrapper {
+	position: relative;
+}
+.slider_wrapper ul.action_buttons {
+	position: absolute;
+	right: 8px;
+	top: 0px;
+	z-index: 99;
+	cursor: pointer;
+	margin-top:0px;
+	margin-bottom:30px
+}
+.slider_wrapper ul.action_buttons li {
+	list-style: none;
+	float: left;
+	margin: 0pt 0pt 0pt 10px;
+	cursor: pointer;
+}
+#mid_content ul.paging.ext_padding {
+	margin: -30px 100px 0 0;
+}
+#mid_content ul.paging li a.slected {
+	background: url(../images/select_no.png) no-repeat left top;
+}
+#mid_content ul.paging li a.un_slected {
+	background: url(../images/select_yes.png) no-repeat left top;
+}
+.action_buttons.left {
+	left: 0px;
+}
+.action_buttons.right {
+	right: 0px;
+}
+/* .panel {
+    width: 675px;
+} */
+.panel {padding: 6px 0 0}
+.zero_margin {
+	margin-right: 0px
+}
+.caption {
+	background: url(../images/newreg_top_caption.png) top left no-repeat;
+	padding: 10px 20px 2px 20px;
+	color: #FFF;
+	font-size: 18px;
+	font-style: italic;
+	/*height:90px;*/
+	overflow:hidden;
+}
+.caption p {
+	font-style: normal;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 0
+}
+.confirmed_email {
+	color: #999;
+	font-size: 18px;
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	display: block;
+	margin-bottom: 37px;
+	width: 200px
+}
+.relative {
+	position: relative
+}
+.small_info {
+	margin:27px 0px 10px 0px;
+	left: 113px;
+	width: 238px;
+	display:block;
+	/*bottom: -50px*/
+}
+.status_box {
+	width: 433px;
+}
+.status_box .stat_row {
+	width: 415px;
+	margin:0px 10px 10px 10px;
+}
+.status_box .stat_row .stat_top {
+	width: 415px;
+	display:block;
+	height:8px !important;
+	line-height:5px !important;
+	background: url(../images/stat_top.png) top no-repeat;
+}
+.status_box .stat_row .stat_middle {
+	width: 415px;
+	display:block;
+	font-family: Trebuchet MS;
+	background: url(../images/stat_middle.png) top repeat-y;
+	overflow:hidden;
+		
+}
+.status_box .stat_row .stat_bottom {
+	width: 415px;
+	height: 8px;
+	background: url(../images/stat_bottom.png) left top no-repeat;
+}
+.status_box .stat_row .stat_middle label {
+	float: left;
+	color: #227ec6;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left:8px;
+	padding-left: 33px;
+}
+.status_box .stat_row .stat_middle div.sm_txt{
+	margin-left:10px;
+	overflow:hidden;
+	display:block;
+		border:1px solid #e8eff6;
+	}
+.status_box .stat_row .stat_middle div.sm_txt em{
+	clear:both;
+	display:block;
+	font-size:12px;
+	font-style:normal;
+	text-align:left;
+	line-height:12px;
+	margin-left:42px;
+	}
+.status_box .stat_row .stat_middle .stat_simuleons {
+	background: url(../images/icon_2_simuleons.png) left top no-repeat;
+	}
+.status_box .stat_row .stat_middle .stat_achievements {
+	background: url(../images/icon_2_achievements.png) left top no-repeat;
+}
+.status_box .stat_row .stat_middle .stat_joblevel {
+	background: url(../images/icon_2_joblevel.png) left top no-repeat;
+}
+.status_box .stat_row .stat_middle .stat_skillpoints {
+	background: url(../images/icon_2_skillpoints.png) left top no-repeat;
+}
+.status_box .stat_row .stat_middle span {
+	float: right;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	padding-right:8px;
+}
+.status_box .stat_row .stat_middle .stat_data_1 {
+	float: right;
+	width: 199px;
+	clear: left;
+}
+.status_box .stat_row .stat_middle .stat_data_2 {
+	float: left;
+}
+.status_box .stat_row .stat_middle .stat_data_2 label, .status_box .stat_row .stat_middle .stat_data_2 span {
+	line-height: 18px;
+}
+.status_box .stat_row .stat_middle .stat_data_1 label, .status_box .stat_row .stat_middle .stat_data_2 label {
+	font-size: 20px;
+	color: #4c4c4c;
+}
+.status_box .stat_row .stat_middle .stat_data_1 span, .status_box .stat_row .stat_middle .stat_data_2 span {
+	color: #000;
+	font-size: 20px;
+}
+#mid_content .status_note .head.stat {
+	background: url(../images/status_note_top_2.png) no-repeat;
+}
+.st_top{
+background: url(../images/status_note_top_2.png) no-repeat;
+	height:15px !important;
+}
+#mid_content .status_note .foot.stat {
+	background: url(../images/status_note_bottom_2.png);
+}
+.st_foot{
+	background: url(../images/status_note_bottom_2.png) no-repeat;
+	clear:both;
+	height:15px;
+	display:block;
+}
+#mid_content .status_note .status_note_tile.stat {
+	background: url(../images/status_note_middle_2.png);
+	width: 650px;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.padd_bottom {
+	padding-bottom: 15px;
+}
+.margne_top {
+	margin-top: 10px;
+}
+#mid_content .character ul.stat_character {
+	list-style: none;
+}
+#mid_content .character ul.stat_character li {
+	margin-left: 5px;
+	color:#000;
+	font-size:13px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	clear: left;
+	vertical-align:middle;
+}
+#mid_content .character ul.stat_character li label {
+	float:left;
+	color:#227EC6;
+	margin-right:5px;
+	width:41px;
+	line-height:1.4em;
+}
+#mid_content .character ul.stat_character li span {
+	float:left;
+	line-height:1.4em;
+	width:128px;
+}
+#mid_content .character .chartile.fix_height {
+	/*height: 535px;*/
+	overflow:hidden;
+}
+table.tbl_skill_points{
+	clear:both !important;
+	width:350px;
+	margin-left:48px;
+}
+table.tbl_skill_points tr td{
+	border:none;
+	color:#4C4C4C;
+	font-size:20px;
+	font-weight:bold;
+	padding:3px;
+	
+	}
+table.tbl_skill_points tr td.txt_dark{
+	color:#000;
+	padding-right: 14px;
+	text-align: right;
+	}
+.subcap {color: #14753b;font-size: 21px;font-weight: bold;padding: 0 0 5px 20px}
+#mid_content .mystatus.slider.bottom{margin-top: 0!important; padding-bottom: 100px;}
+#mid_content .mystatus.slider.bottom .tile_mystatus {height: auto!important;height: 200px;min-height: 200px}
+#mid_content .mystatus.slider .simprof {margin: 0;padding: 16px 0 0}
+#mid_content .mystatus.slider .simprof .cancel {margin-right: 10px}
+
+#mid_content #slider ul.navigation {float: right;list-style: none outside;margin: 20px 70px 4px 0}
+#slider .navigation li {float: left;height: 20px;margin-left: 10px;text-indent: -999em;width: 21px}
+.navigation li a { display: block; width: 21px; height: 20px;}
+.navigation li a.un_slected {background: url(../images/select_blk.png) top no-repeat;}
+.navigation li a.slected {background: url(../images/select_no.png) no-repeat;}
+.scrollButtons {position: relative}
+.scrollButtons.left {top: 20px; cursor: pointer;}
+.scrollButtons.right {top: 20px; cursor: pointer;}
+
+
+/* slider */
+#slider {background: url(../images/_sliderbg.png) no-repeat;height: 445px;margin-left: 14px;position: relative;width: 740px}
+#slider .in {margin: 0 10px 10px}
+.slidertitle {color: #FFF;font-size: 16px;font-style: italic;float: left;margin: 5px 0 0 20px;line-height: 1.3em}
+#mid_content #slider ul.navigation {float: right;list-style: none outside;margin: 20px 10px 4px 0}
+
+.scroll {clear: both;overflow: hidden;height: 390px; width: 720px; background: url(../images/_sliderinbg.png);}
+.scrollContainer {height: 398px;width: 720px;}
+.simprofile {background: url(../images/_sliderprof.png) center no-repeat;float: left;font-size: 14px;height: 375px;line-height: 1.4em;text-align: center;width: 240px;position: relative}
+.simprofile.selected {background: url(../images/_sliderprof_slected.png) center no-repeat;}
+#mid_content .simprofile ul {font-weight: bold;list-style: none outside;text-align: left;margin: 8px 30px 0}
+.simprofile li {clear: both;margin: 0 0 5px;line-height: 1.3em}
+.simprofile li label {font-size: 12px;color: #227ec6;margin-right: 5px}
+.simprofile li.twolines {}
+.simprofile li.twolines span {float: left;width: 135px;line-height: 1.1em}
+.simprofile li.twolines label {float: left}
+
+.simprofile .avatar {margin-top: 16px}
+.simprofile .btn {border:none; position: absolute;bottom: 12px;left: 48px; text-align:left !important; padding-left:40px; outline:none !important;}
+
+
+/* slider cutoff */
+#slider.cutoff {background-image: url(../images/_sliderbg2.png)}
+#mid_content .mystatus.slider {margin-left: 14px;margin-top: 50px;width: 740px}
+#mid_content .mystatus.slider .head {background-image: url(../images/mystatus_top2.png)}
+#mid_content .mystatus.slider .tile_mystatus {background-image: url(../images/mystatus_tile2.png)}
+#mid_content .mystatus.slider .foot {background-image: url(../images/mystatus_bottom2.png);width: 740px}
+.subcap {color: #14753b;font-size: 21px;font-weight: bold;padding: 0 0 5px 20px}
+.simprof {
+	margin: 10px 2px 10px 0;
+	padding-left:10px;
+}
+.simprof.fix {
+	margin: 10px 18px 10px 0;
+        width:750px;
+}
+.simprof .hr {margin-right: 18px;background-position: right}
+
+/* new main image for front page */
+.mainimage {float: left;margin: 0 24px 5px 5px}
+.introtxt {font-size: 16px;font-weight: bold;line-height: 1.2em}
+.introtxt p {margin: 10px 0}
+p.align_fix { margin-right: 20px;}

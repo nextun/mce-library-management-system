@@ -1,0 +1,69 @@
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+	border: solid 5px #999;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #666;
+	background: #CCC url(images/title.gif) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	background: 16px 16px no-repeat url(images/info.gif);
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+#popup_content.alert {
+	background-image: url(images/info.gif);
+}
+
+#popup_content.confirm {
+	background-image: url(images/important.gif);
+}
+
+#popup_content.prompt {
+	background-image: url(images/help.gif);
+}
+
+#popup_message {
+	padding-left: 48px;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 0em 0em 0em 0em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+
+#popup_container {background: url(../images/popup.png);border: 0;font-family: "Trebuchet MS",Arial,sans-serif;height: 212px;min-height: 212px;width: 327px;min-width: 327px;text-align: center}
+#popup_title {background: transparent none;border: 0;display: none}
+#popup_message {padding: 0}
+#popup_content, #popup_content.confirm, #popup_content.alert {background-image: none}
+#popup_container h2 {font-size: 20px;font-weight: bold;line-height: 28px;margin-bottom: 10px!important;margin-top: 5px}
+#popup_container p {font-size: 12px;line-height: 16px;margin-bottom: 5px}
+#popup_ok {background: url(../images/button_normal_tall-trans.png);border: 0;color: #FFF;font-size: 22px; font-weight: bold; font-family: trebuchet MS; height: 54px;text-align: center;text-transform: uppercase;width: 140px; cursor: pointer;}
+#popup_panel {margin-top: 0}
+#popup_cancel {background: url(../images/button_normal_tall-trans.png);border: 0;color: #FFF;font-size: 22px; font-weight: bold; font-family: trebuchet MS; height: 54px;text-align: center;text-transform: uppercase;width: 140px; cursor: pointer;}
+/*#popup_cancel {background: transparent;border: 0;color: #14753B;font-size: 16px;text-transform: lowercase; }*/
+#popup_container h2 {margin-bottom: 0}
