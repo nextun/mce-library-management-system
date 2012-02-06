@@ -120,7 +120,6 @@ function &load_class($class, $instantiate = TRUE)
 	if ($is_subclass == TRUE)
 	{
 		$name = config_item('subclass_prefix').$class;
-		echo $name;
 		$objects[$class] = new $name();
 		return $objects[$class];
 	}
