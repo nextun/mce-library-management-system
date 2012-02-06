@@ -3,7 +3,7 @@
 class Layout {
 	function getLayout() {
 		$CI =& get_instance();
-		
+		     
 		$content = $CI->output->get_output();
     	if(empty($content)) {
     		global $class, $method;
