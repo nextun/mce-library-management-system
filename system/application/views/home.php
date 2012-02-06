@@ -1,58 +1,140 @@
-                <?php echo css_link("jquery.alerts.css");?>
-                <h2 class="tagline pngfix png" style="text-transform:none;font-size:20px;padding-left:18px;padding-top:120px;"><?php echo lang('home_query_1');?></h2>
-				<div class="loginbox">
-					<div class="head png"></div>
-					<div class="tile png autoheight">
-						<h3><?php echo lang('home_query_2');?></h3>
-						<form method="post" action="<?php echo url_link('start/login');?>" onsubmit="checkLogin('<?php echo sign_up_url(); ?>'); return false;"  >
-							<div class="clr"><label><?php echo lang('home_email');?></label><input type="text" name="email" id="email" autocomplete="off"/></div>
-							<div class="clr"><label><?php echo lang('home_password');?></label><input type="password" name="password" id="password" autocomplete="off"/></div>
-							<a href="<?php echo forgot_password_url(); ?>" class="forgot_pwd"><?php echo lang('home_forgot_password');?></a>
-							<input type="submit" value="<?php echo lang('home_login');?>" class="btn png" />
-                            
-							<div class="clr"></div>
-						</form>
-					</div>
-					<div class="foot png"></div>
-				</div><!-- loginbox -->
-				<div class="clr"></div>
-				<!-- text start -->
-                <div class="marginer">
-                <div id="insider">
-                    <div class="insiderhead png"></div>
-                    <div class="insidertile png">
-                        <img src="<?php echo image_link('simfriend.png');?>" class="mainimage png" alt="SimFriend"  />
-                        <div class="introtxt">
-                            <input onclick="document.location='<?php echo url_link('home/index');?>'" type="button" class="btn wide start_playing png" value="<?php echo lang('home_start_playing');?>" />
-                            <p><?php echo lang('home_general_message_1');?></p>
-                            <p><?php echo lang('home_general_message_2');?></p>
-                            <p><?php echo lang('home_general_message_3');?></p>
-                        </div>
-                        <div class="clr"></div>
-                    </div><!-- insider tile -->
-                    <div class="insiderfoot png"></div>
-                </div><!-- insider -->
-                </div><!-- marginer -->
-                <!-- text end -->
-				<?php echo js_link('jquery_ajax.js');?>
-                <?php echo js_link("jquery.alerts.js");?>
-				<?php echo js_link("datetime.js");?>
-                 <?php  if($login_error == 1) { ?>
-              <script>
-                popup();
-                function popup()
-                {
-                    jConfirm('<div id="popup" class="png"><div class="marginer"><h2>The information entered is not valid.</h2><p>Please try logging in again or create an account if you do not have one yet.</p></div></div>', 'Confirmation Dialog', function(r) {
 
-					// change upon confirmation
-					if(r)
-					{
-                          
-						window.location = '<?php echo sign_up_url(); ?>';
-					}
-                    });
-                }
+<html>
+<body style="background-color:#FFA500;">
 
-               </script>
-            <?php }?>
+<h1><i>Muslim Community Edmonton Library Homepage</i></h1>
 
+<table>
+<tr>
+<td>
+    
+<table width="500" height="300" border="0" style="background-color:#FFFFA5;">
+<tr valign="top">
+<td >   
+<h2><i>News</i></h2>
+<b><i>New books arrival</i></b>
+</td></tr>
+</table>
+
+<table width="500" height="500" border="0" style="background-color:#FFFF13;">
+<tr valign="top">
+<td colspan="2" >   
+<h2 ><i>Recommended Books</i></h2>
+Based on mostly borrowed books recently<br />
+<i><b>Hadith</b></i><br />
+<i><b>Fiqh</b></i><br />
+<i><b>Aqeedah</b></i><br />
+</td>
+<tr>
+</table>
+
+</td>
+
+<td valign="top">
+<table>    
+<form action="index.php" method="post">
+<tr><td><b>Find Books</b></td></tr>
+<tr><td><input type="radio" name="keyword"/>Keyword </td>
+<td><input type="radio" name="startword"/>Starting With</td></tr> 
+<tr><td><input type="text" name="searchtopic"></td>
+<!--<td><select>
+  <option>Categories</option>
+  <option>Hadith</option>
+  <option>Fiqh</option>
+  <option>Aqeedah</option>
+  <option>Seerah</option>
+  <option>History</option>
+  <option>Family</option>
+  <option>Women</option>
+  <option>Mics.</option>
+</select></td></tr> -->   
+<tr><td><input type="submit" value="Search" name="search"></td></tr>
+<?php
+    if(isset($_REQUEST['search'])){
+                
+                echo "<br \>";
+                if($_REQUEST['keyword'] != ""){
+                    $flag='keyword';
+                }else{$flag ='startword'; }   
+                echo "<tr><td><a href='searchresult.php?key=".$_REQUEST['searchtopic']."&flag=".$flag."'>Check Search result</a></td></tr>";
+					
+    }
+?>
+</form>
+</table>
+&nbsp; &nbsp; &nbsp;
+<form action="advancesearch.php" method="post">
+<input type="submit" value="Advanced Search" name="advancesearch">   
+</form>
+
+<table>
+<tr>    
+<td><b><i>Already Registered?</i> Please login<b></td>
+</tr>
+<tr>
+<td>
+<form action="index.php" method="post">
+<table>    
+<tr><td>User Code</td><td><input type="text" size="30" name="usercode"></td></tr>
+<tr><td>Password</td><td><input type="password" size="30" name="password"></td></tr>
+<tr><td><input type="submit" value="Log in" name="login"></td></tr>
+<?php
+    if(isset($_REQUEST['login'])){
+        $result=mysql_query("SELECT * FROM User WHERE User.User_code='".$_REQUEST['usercode']."' AND User.Password='".$_REQUEST['password']."'");
+        $row=mysql_fetch_array($result);
+        $usrid=$row['User_ID'];
+        if($usrid != ""){
+            $_SESSION['userid'] = $usrid;
+        }else{
+            echo "<tr><td>The user does not exist!</td></tr>";
+            echo "<tr><td>Please try again!</td></tr>";
+        }    
+    }
+?>
+
+</table>    
+</form>
+</td>
+
+
+<tr>
+<td><b><i>New User?<a href='registration.php'>Please register</a></i></b></td>    
+</tr>    
+</table>
+
+&nbsp; &nbsp; &nbsp;
+<table>
+<tr><td><b>Operating hour</b></td></tr>
+<tr><td>Monday-Wednesday</td><td>:3:00 pm- 4:30 pm</td></tr>
+<tr><td>Thursday</td><td>:3:00 pm-4:30 pm</td></tr>
+<tr><td>Friday</td><td>:3:00 pm-4:30 pm</td></tr>
+</table>    
+
+&nbsp; &nbsp; &nbsp;
+<table>
+<tr><td><b>Community Survey</b></td></tr>
+<tr><td>We always apprecaite our user's feedback</td></tr>
+<tr><td>on our service. Please feel free to participate</td></tr>
+<tr><td>in a communiity survey which helps us</td></tr>
+<tr><td>to improve our service and library collections</td></tr>
+
+<form action="survey.php" method="post">
+<tr><td><input type="submit" value="Go to Survey" name="survey"></td></tr>
+</table>
+
+</td>
+<td valign="top">
+<?php
+    if(isset($_SESSION['userid'])){
+        echo "<a href='logout.php'>Log out</a>";
+    }
+?>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;">Copyright © Muslim Community Edmonton 2011
+</td>
+</tr>
+</table>
+<!-- HTML comments -->
+</body>
+</html>
