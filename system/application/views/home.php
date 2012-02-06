@@ -1,9 +1,9 @@
-
 <html>
+<head>
+<title>:: MCE LIBRARY ::</title>
+</head>
 <body style="background-color:#FFA500;">
-
 <h1><i>Muslim Community Edmonton Library Homepage</i></h1>
-
 <table>
 <tr>
 <td>
@@ -98,7 +98,7 @@ Based on mostly borrowed books recently<br />
 
 
 <tr>
-<td><b><i>New User?<a href='registration.php'>Please register</a></i></b></td>    
+<td><b><i>New User?<a href="<?php echo base_url().'index.php/Register';?>">Please register</a></i></b></td>    
 </tr>    
 </table>
 
