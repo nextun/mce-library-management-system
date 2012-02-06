@@ -11,9 +11,6 @@
 |	http://example.com/
 |
 */
-if($GLOBALS['application_state'] == "localhost")
-
-
 		$config['base_url']	= "http://localhost/library/";
 
 // elseif ($GLOBALS['application_state'] == "alpha")
@@ -36,7 +33,7 @@ if($GLOBALS['application_state'] == "localhost")
 | javascript file, so that the browser uses the latest version instead from cache
 |
 */
-$config['static_version'] = "201205141349";
+$config['static_version'] = "";
 		
 /*
 |--------------------------------------------------------------------------
@@ -148,7 +145,7 @@ $config['subclass_prefix'] = 'lib_';
 |
 */
 
-$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
+$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\/-';
 
 /*
 |--------------------------------------------------------------------------
@@ -172,7 +169,7 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 | use segment based URLs.
 |
 */
-$config['enable_query_strings'] = FALSE;
+$config['enable_query_strings'] = TRUE;
 $config['directory_trigger'] = 'd';	 // experimental not currently in use
 $config['controller_trigger'] = 'c';
 $config['function_trigger'] = 'm';
