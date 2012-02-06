@@ -4,22 +4,10 @@ function base_app_url()
 {
 	$CI = & get_instance();
 	return $CI->config->item('base_url');
+	
 	//return 'http://localhost/library/';
 }
 
-// For forgot passowrd URL
-function forgot_password_url()
-{
-	$CI = & get_instance();
-    $config = $CI->config->load('library/config');
-
-	$base_forgot_pass_url = $CI->config->item('forgor_password_link');
-    $encode_base_url = urlencode(base_app_url());
-    $final_forgot_pass_url = str_replace('{success_url}', $encode_base_url , $base_forgot_pass_url );
-
-    return $final_forgot_pass_url;
-
-}
 
 function login_url()
 {
